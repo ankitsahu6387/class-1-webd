@@ -1,0 +1,318 @@
+.container{
+  padding: 10px;
+}
+.nav {
+  width: max-content;
+  height: 20px;
+  position: fixed;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-bottom: 50px;
+  z-index: 1;
+  background-color: white;
+}
+
+.leftSection span {
+  margin-right: 10px;
+  align-items: center;
+}
+.content {
+  cursor: pointer;
+  padding: 10px;
+}
+.content:hover {
+  background-color: gray;
+}
+
+.rightSection img {
+  height: 20px;
+  padding: 10px;
+}
+
+.rightSection img:hover {
+  background-color: red;
+  padding: 10px;
+}
+
+.bcgImg {
+  margin-top: 10px;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.containsImg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.website-text {
+  position: absolute;
+  background-color: black;
+  color: white;
+  top: 50%;
+  left: 40%;
+  font-size: 30px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 200px;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+.title1 {
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+.text {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 18px;
+}
+
+.text2 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 200px;
+}
+
+.title3 {
+  font-weight: bold;
+  text-align: center;
+  color: gray;
+  padding: 10px;
+}
+
+.content3 {
+  font-size: 18px;
+  padding: 100px;
+  color: gray;
+  line-height: 25px;
+}
+
+.content4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 200px;
+  padding-bottom: 100px;
+}
+
+.bar {
+  display: flex;
+  height: 30px;
+  width: 1000px;
+  background-color: lightgray;
+}
+
+.text3 {
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 10px;
+}
+.title4 {
+  color: gray;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.bar1 {
+  width: 90%;
+  background-color: gray;
+  text-align: center;
+  color: white;
+}
+
+.bar3 {
+  width: 85%;
+  background-color: gray;
+  text-align: center;
+  color: white;
+}
+
+.bar4 {
+  width: 75%;
+  background-color: gray;
+  text-align: center;
+  color: white;
+}
+
+.banner {
+  display: flex;
+  background-color: gray;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 70px;
+  padding-block: 50px;
+}
+
+.banner div {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.bcgImage {
+  height: 500px;
+  width: 100%;
+}
+
+.content5 {
+  padding-top: 20px;
+  position: relative;
+}
+
+.text4 {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  background-color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.myWork {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 200px;
+  padding-block: 50px;
+}
+
+.title5 {
+  font-size: 30px;
+  color: gray;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text5 {
+  color: gray;
+  font-size: 18px;
+}
+
+.imagesAnimal {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.imagesAnimal img {
+  padding: 5px;
+}
+
+.btn {
+  padding-block: 100px;
+}
+
+.btn span {
+  background-color: gray;
+  font-size: 30px;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn span:hover {
+  background-color: lightgray;
+}
+
+.content5 {
+  position: relative;
+}
+
+.img5 {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.content6 {
+  position: relative;
+}
+
+.content6 div {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  font-size: 50px;
+  color: white;
+}
+
+.content7 {
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-inline: 200px;
+}
+.content8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 200px;
+  padding-bottom: 100px;
+}
+.rght {
+  padding: 20px;
+}
+
+.address {
+  font-size: 25px;
+  color: gray;
+}
+
+.text7 {
+  margin-top: 10px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.inp1,
+.inp2 {
+  padding: 10px;
+  color: gray;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.inp3 {
+  padding: 10px;
+  color: gray;
+  font-size: 20px;
+  width: 530px;
+}
